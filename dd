@@ -1,0 +1,3 @@
+rm -rf data
+dd if=/dev/zero of=data bs=30M count=1
+mkfs.msdos data
